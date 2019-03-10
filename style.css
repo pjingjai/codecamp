@@ -1,9 +1,32 @@
-fieldset { border:1px solid green }
+fieldset {
+    border:1px solid black;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
 
 legend {
-  padding: 0.2em 0.5em;
-  border:1px solid green;
-  color:green;
-  font-size:90%;
-  text-align:right;
-  }
+    font-weight: bold;
+    font-size: 20px;
+    text-align:left;
+}
+
+#labels {
+    float:left;
+    text-align: left;
+    margin-left: 16%
+}
+
+#fields {
+    float: right;
+    text-align: left;
+    margin-right: 16%
+}
+
+#fields input {
+}
+
+#control {
+    margin-top: 180px;
+}
