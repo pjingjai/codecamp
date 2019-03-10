@@ -25,6 +25,7 @@ legend {
 }
 
 #fields input {
+    height: 8px;
 }
 
 #control {
